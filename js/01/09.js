@@ -7,4 +7,9 @@ number = prompt("Enter a three-digit number")
 
 let numberThree = number % 10;
 
-alert(numberThree);
+let numberTwo = (number % 100 - numberThree) / 10;
+
+let numberOne = String(number) - String(numberThree) - String(numberTwo);
+
+let result = String(numberThree) + String(numberTwo) + String(numberOne);
+alert(result);
