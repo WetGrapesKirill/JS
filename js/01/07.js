@@ -3,8 +3,8 @@
 
 let size;
 
-size = prompt("Indicate volume in GB")
+size = prompt("Indicate volume in GB");
 
-size = (size * 1024) / 820
+size = (size * 1024) / 820;
 
-alert(`files of 820 MBs = ` + Math.trunc(size))
+alert(`files of 820 MBs = ` + Math.trunc(size));

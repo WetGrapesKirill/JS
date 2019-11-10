@@ -5,17 +5,17 @@
  */
 let cash;
 
-cash = prompt("Enter the amount")
+cash = prompt("Enter the amount");
 
 /**
  * @type {number}
  */
 let chocolate;
 
-chocolate = prompt("The price of chocolate")
+chocolate = prompt("The price of chocolate");
 
-let price
+let price;
 
-price = cash / chocolate
+price = cash / chocolate;
 
-alert(`Your chocolate ${price} ,your task ${cash - (price * chocolate)}`)
+alert(`Your chocolate ${price} ,your task ${cash - (price * chocolate)}`);

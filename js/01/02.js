@@ -5,7 +5,7 @@ const thisyear = 2019;
 
 let year;
 
-year = prompt("What year are you born ?")
+year = prompt("What year are you born ?");
 
-alert(`You old years ${thisyear - year}`)
+alert(`You old years ${thisyear - year}`);
 

@@ -3,6 +3,6 @@
 
 let length;
 
-length = prompt("Side length of a square")
+length = prompt("Side length of a square");
 
-alert(`Square perimeter ${length * 4}`)
+alert(`Square perimeter ${length * 4}`);

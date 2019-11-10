@@ -2,8 +2,8 @@
 
 let area;
 
-area = prompt("Circle radius")
+area = prompt("Circle radius");
 
-area = (area * area) * 3.1415
+area = (area * area) * 3.1415;
 
-alert(`Your circumference ` + Math.trunc(area))
+alert(`Your circumference ` + Math.trunc(area));

@@ -3,6 +3,6 @@
 
 let deposit;
 
-deposit = prompt("Your bank deposit")
+deposit = prompt("Your bank deposit");
 
-alert(`Your percent ${(deposit * 1.2 / 100)}`)
+alert(`Your percent ${(deposit * 1.2 / 100) * 2}`);

@@ -3,12 +3,12 @@
 
 let distance;
 
-distance = prompt("Indicate the distance between two cities in kilometers ")
+distance = prompt("Indicate the distance between two cities in kilometers ");
 
 let time;
 
-time = prompt("Desired time")
+time = prompt("Desired time");
 
-let speed = distance / time
+let speed = distance / time;
 
-alert(`Your speed ` + Math.round(speed))
+alert(`Your speed ` + Math.round(speed));
