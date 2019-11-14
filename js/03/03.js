@@ -1,4 +1,4 @@
-let number = +prompt("Введите число");
+let number = +prompt(`enter number`);
 let k = number;
 while (k >= 1) {
     number % k;
