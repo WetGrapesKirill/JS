@@ -7,15 +7,18 @@ let buf;
 function timeInfo(_time) {
     alert(`${_time.hour}:${_time.minutes}:${_time.seconds}`)
 }
+function name(params) {
+
+}
 function seconds(_time) {
     let i = +prompt(`how many seconds will increase`)
     time.seconds += i
-    if (_time.seconds > 60) {
-        _time.seconds = 00;
-        _time.minutes += 1;
+    while (_time.seconds >= 60) {
+        _time.seconds -= 60;
+        _time.minutes++;
     }
-    if (_time.minutes > 60) {
-        _time.minutes = 00;
+    while (_time.minutes >= 60) {
+        _time.minutes -= 60;
         _time.hour += 1;
     }
     if (_time.hour > 24) {

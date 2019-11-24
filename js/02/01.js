@@ -2,7 +2,7 @@
 /**
  * @type {number}
  */
-let number = prompt("Enter how you old years");
+let number = +prompt("Enter how you old years");
 if (number < 1) {
     alert(`you unexist`)
 } else if ((number > 0) && (number < 13)) {
