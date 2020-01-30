@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Films</title>
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/bootstrap-grid.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/remodal.css">
+    <link rel="stylesheet" href="./style/remodal-default-theme.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <div class="page">
+        <a href="./#favourite-list" class="favourite-list"></a>
+        <div class="bg-menu">
+            <div class="menu">
+                <div class="row">
+                    <div class="col-6 flex-column flex-nowrap">
+                        <label class="form__label" for="name"><a href="#">Search a movie or
+                                series</a></label>
+                        <select id="select" class="form__select" name="type">
+                            <option class="form__select-option" value="movie">movie</option>
+                            <option class="form__select-option" value="series">series</option>
+                        </select>
+                    </div>
+                    <div class="col-6">
+                        <input class="form__input" type="text" name="name" id="name" placeholder="Search your movie">
+                        <input id="submit" class="form__submit" type="submit" value="SEARCH">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="nav"></div>
+        <div id="panel"></div>
+        <div class="remodal-bg">
+            <div class="remodal" data-remodal-id="modal">
+                <button data-remodal-action="close" class="remodal-close"></button>
+                <img id="image" alt="movie poster">
+                <h1 id="heading"></h1>
+                <h2 id="year"></h2>
+                <p id="plot-para">
+                </p>
+                <br>
+            </div>
+        </div>
+        <div class="remodal-bg">
+            <div class="remodal" data-remodal-id="modal-error">
+                <p class="error-message">ERROR! MOVIE NOT FOUND</p>
+                <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
+    <script src="https://kit.fontawesome.com/f811e9d5c2.js" crossorigin="anonymous"></script>
+    <script src="./script/remodal.min.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
