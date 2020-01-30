@@ -2,7 +2,7 @@ let auto = {
     producer: "Lamborghini",
     type: "Diablo",
     issue: "1990 year",
-    speed: "320 km/h"
+    speed: 320
 }
 function autoInfo(_auto) {
     alert(`machine specifications
